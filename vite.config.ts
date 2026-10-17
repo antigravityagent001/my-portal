@@ -9,6 +9,8 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig(() => {
   return {
+    // Relative base ensures asset URLs work on both custom domains and GitHub Pages subpaths (e.g. /my-portal/)
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

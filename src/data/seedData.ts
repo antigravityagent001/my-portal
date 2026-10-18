@@ -80,7 +80,7 @@ export const INITIAL_REPOSITORIES: Repository[] = [
     account: 'main',
   },
   {
-    id: 'bacondev123-Project-SAO',
+    id: 'bacondev123-Project-SAO-docs',
     name: 'Project-SAO-Temporary-Discontinued-',
     fullName: 'bacondev123/Project-SAO-Temporary-Discontinued-',
     owner: {
@@ -144,28 +144,6 @@ export const INITIAL_REPOSITORIES: Repository[] = [
     topics: ['profile', 'github-config', 'portfolio'],
     bannerImage: ASSET_PATHS.profile,
     account: 'alt',
-  },
-  {
-    id: 'bacondev123-github-io',
-    name: 'bacondev123.github.io',
-    fullName: 'bacondev123/bacondev123.github.io',
-    owner: {
-      login: 'bacondev123',
-      avatarUrl: 'https://github.com/bacondev123.png',
-      htmlUrl: 'https://github.com/bacondev123',
-    },
-    description: 'Centralized repository portal for bacondev123 and antigravityagent001.',
-    htmlUrl: 'https://github.com/bacondev123/bacondev123.github.io',
-    homepage: 'https://bacondev123.github.io',
-    language: 'TypeScript',
-    stargazersCount: 20,
-    forksCount: 2,
-    openIssuesCount: 0,
-    updatedAt: '2026-06-10T12:00:00Z',
-    isRecommended: false,
-    topics: ['portal', 'portfolio', 'github-pages', 'react'],
-    bannerImage: ASSET_PATHS['bacondev123.github.io'],
-    account: 'main',
   },
 ];
 

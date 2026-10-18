@@ -8,7 +8,6 @@ export const ASSET_PATHS: Record<string, string> = {
   'project-sao': '/assets/repos/project-sao.png',
   'chinese-game-project': '/assets/repos/chinese-game-project.png',
   profile: '/assets/repos/profile.png',
-  'bacondev123.github.io': '/assets/repos/portal.png',
 };
 
 // Repository catalog

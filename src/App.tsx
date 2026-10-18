@@ -63,7 +63,7 @@ export default function App() {
           <div className="flex items-center gap-2">
             <span>© {new Date().getFullYear()} bacondev123</span>
             <span>•</span>
-            <span className="font-mono text-slate-600">bacondev123.github.io</span>
+            <span className="font-mono text-slate-600">Developer Portal</span>
           </div>
 
           <div className="flex items-center gap-4">

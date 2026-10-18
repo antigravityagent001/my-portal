@@ -1,10 +1,12 @@
 import type { Repository } from '../types/index.ts';
 import { INITIAL_REPOSITORIES, ASSET_PATHS } from '../data/seedData.ts';
 
-const CACHE_KEY_REPOS = 'github_portal_repos_v5';
-const CACHE_KEY_LAST_SYNC = 'github_portal_last_sync_v5';
+const CACHE_KEY_REPOS = 'github_portal_repos_v7';
+const CACHE_KEY_LAST_SYNC = 'github_portal_last_sync_v7';
 
 const EXCLUDED_REPOS = new Set([
+  'bacondev123.github.io',
+  'bacondev123-github-io',
   'project isla',
   'project-isla',
   'antigravity-agent-toolkit',
@@ -36,6 +38,7 @@ function isKnownRecommended(name: string): boolean {
 
 function isRepoExcluded(name: string): boolean {
   const lower = name.toLowerCase();
+  if (EXCLUDED_REPOS.has(lower)) return true;
   for (const ex of EXCLUDED_REPOS) {
     if (lower === ex || lower.replace(/[-_]/g, ' ') === ex) {
       return true;

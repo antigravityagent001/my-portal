@@ -1,10 +1,11 @@
 import type { Repository } from '../types/index.ts';
 import { INITIAL_REPOSITORIES, ASSET_PATHS } from '../data/seedData.ts';
 
-const CACHE_KEY_REPOS = 'github_portal_repos_v7';
-const CACHE_KEY_LAST_SYNC = 'github_portal_last_sync_v7';
+const CACHE_KEY_REPOS = 'github_portal_repos_v8';
+const CACHE_KEY_LAST_SYNC = 'github_portal_last_sync_v8';
 
 const EXCLUDED_REPOS = new Set([
+  'robotics',
   'bacondev123.github.io',
   'bacondev123-github-io',
   'project isla',

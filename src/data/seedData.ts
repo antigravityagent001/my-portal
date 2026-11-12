@@ -2,7 +2,6 @@ import type { Repository, CertificateItem } from '../types/index.ts';
 
 // Dedicated asset image paths (custom files can be placed in /public/assets/repos/)
 export const ASSET_PATHS: Record<string, string> = {
-  robotics: '/assets/repos/robotics.png',
   'meteor-dodge': '/assets/repos/meteor-dodge.png',
   mathanimations: '/assets/repos/mathanimations.png',
   'project-sao': '/assets/repos/project-sao.png',
@@ -12,28 +11,6 @@ export const ASSET_PATHS: Record<string, string> = {
 
 // Repository catalog
 export const INITIAL_REPOSITORIES: Repository[] = [
-  {
-    id: 'bacondev123-robotics',
-    name: 'robotics',
-    fullName: 'bacondev123/robotics',
-    owner: {
-      login: 'bacondev123',
-      avatarUrl: 'https://github.com/bacondev123.png',
-      htmlUrl: 'https://github.com/bacondev123',
-    },
-    description: 'Robotics experiments, kinematics simulations, and embedded hardware controllers.',
-    htmlUrl: 'https://github.com/bacondev123/robotics',
-    homepage: null,
-    language: 'C++',
-    stargazersCount: 32,
-    forksCount: 4,
-    openIssuesCount: 0,
-    updatedAt: '2026-06-01T10:00:00Z',
-    isRecommended: true,
-    topics: ['robotics', 'kinematics', 'embedded', 'c-plus-plus', 'simulation'],
-    bannerImage: ASSET_PATHS.robotics,
-    account: 'main',
-  },
   {
     id: 'bacondev123-meteor-dodge',
     name: 'meteor-dodge',

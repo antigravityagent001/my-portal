@@ -30,7 +30,7 @@
         "id": "main",
         "username": "bacondev123",
         "label": "Main",
-        "icon": "🐙",
+        "icon": "💻",
         "url": "https://github.com/bacondev123",
         "variant": "main"
       },
@@ -38,7 +38,7 @@
         "id": "alt",
         "username": "antigravityagent001",
         "label": "Alt",
-        "icon": "⚡",
+        "icon": "🖥️",
         "url": "https://github.com/antigravityagent001",
         "variant": "alt"
       }

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && mkdir -p assets docs && cp -r dist/assets/* assets/ && cp -r dist/* docs/",
+    "build": "tsc && vite build && cp config.json dist/config.json && rm -rf docs && mkdir -p docs && cp -r dist/* docs/",
     "lint": "tsc --noEmit",
     "preview": "vite preview"
   },
